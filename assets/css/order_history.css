@@ -1,0 +1,58 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.order {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.order h4 {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}
+
+.order p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.order img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.badge-success {
+    font-size: 1em;
+    padding: 5px 10px;
+}
+
+@media (max-width: 768px) {
+    .order {
+        padding: 10px;
+    }
+    .order h4 {
+        font-size: 1em;
+    }
+    .order img {
+        width: 80px;
+        height: 80px;
+    }
+    .badge-success {
+        font-size: 0.9em;
+        padding: 3px 8px;
+    }
+    .order p {
+        font-size: 0.9em;
+    }
+}
